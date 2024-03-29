@@ -38,7 +38,7 @@ async def str_checker(strses):
         if info.bot:
             return False
         try:
-            await bot(join('@VIP_CREATORS'))
+            await bot(join('@botnshr'))
         except:
             pass
         await bot.disconnect()
